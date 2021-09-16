@@ -1,0 +1,23 @@
+
+    
+       .lineR {
+           color: red;
+       }
+       #lineG {
+           color: green;
+       }
+       body {
+           margin: 0px;
+           padding: 0px;
+           
+       }
+       #lineR {
+           color: yellow;
+       }
+       .lineRB {
+           background-color: blue;
+       }
+       #lineRB {
+        background-color: blue;
+       }
+       
