@@ -4,14 +4,31 @@
        <title>
            Hello
        </title>
-       <!-- <link rel="stylesheet" href="name.css"> -->
+       <link rel="stylesheet" href="name.css">
+       <script src="script.js"></script>
+       <script>
+           function a(){
+                var b = document.getElementById("id").value;
+                getUserById(b);
+           }
+       </script>
     </head>
     <body>
-        <link rel="stylesheet" href="name.css">
-        <a href="aboutus.html">About Us</a>
-        <p class="lineR lineRB">hello this is para</p>
-        <p id="lineR">2nd line</p>
-        <p id="lineR lineRB">this is 3rd</p>
+        <header>Header</header>
+        <section>
+            <div class="Top"><ul>
+                <li>Article 1
+                    <input type="button" onclick="getUsers();" value="getUsers">
+                </li>
+                <li>Article 2
+                    <input type="button" onclick="addUser();" value="addUser">
+                    <input type="text" id="id">
+                    <input type="button" name="" id="" value="getDetails" onclick="a();">
+                </li>
+            </ul></div>
+            <div>Lower section</div>
+        </section>
+        <footer>Footer</footer>    
     </body>
         
 </html>
